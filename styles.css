@@ -1,0 +1,58 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    font-family: 'Coiny', cursive;
+}
+
+.title {
+    font-size: 50px;
+    background-color: rgba(255, 0, 0, 0.6);
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 350px;
+}
+
+.start-button {
+    height: 40px;
+}
+
+
+/* Check out `display:none`. What do you think it does?*/
+.treasure, .secondpage, .squarecake, .flavorChocolate, .chocolateCake, .flavorStrawberry, .strawberryCake, .multiCake, .flavorOreo, .oreoCake, .flavorVanilla, .vanillaCake {
+    display: none;
+    font-family: 'Coiny', cursive;
+}
+
+.treasure-img {
+    height: 300px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#chocolatesyrup {
+    width: 400px;
+}
+
+#strawberrycakeImg, #strawberrysyrup {
+    width: 600px;
+}
+
+#oreos, #vanilla, #vanillacakeImg {
+    width: 500px;
+}
